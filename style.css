@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,700&display=swap');
+/*Used to remove default settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: navy;
+    color: white;
+}
+
+header {
+    background: gold;
+    padding: 20px;
+    border: dotted;
+    border-color: navy;
+}
+
+header > h1 {
+    color: navy;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 3px solid white;
+    width: 200px;
+    font-size: 44px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: red;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user-label {
+position: absolute;
+top: 30px;
+left: -30px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    font-family: Asap, sans-serif;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.choices {
+    margin: 50px 0;
+text-align: center;
+
+}
+
+
+/*Styles the choice div and gives the inner div an animation transition*/
+.choice{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.3s ease;
+    
+}
+/*Used to animate the background of hovering choice*/
+.choice:hover {
+    cursor: pointer;
+    background: gold;
+}
+
+#action-message {
+    text-align: center;
+    font-size: 20px;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+.green-glow {
+    border: 4px solid green;
+    box-shadow: 0 0 10px darkgreen;
+}
+
+.red-glow {
+    border: 4px solid red;
+    box-shadow: darkred;
+}
+
+.gray-glow {
+    border: 4px solid gray;
+    box-shadow: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
